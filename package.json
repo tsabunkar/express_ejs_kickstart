@@ -1,10 +1,10 @@
 {
-  "name": "social-aggregator",
+  "name": "express_ejs_kickstart",
   "version": "0.0.0",
   "private": true,
   "scripts": {
     "start": "node ./server/bin/www",
-    "start-dev": "nodemon --exec \"npm start\" "
+    "start-dev": "start http://localhost:3000 && nodemon --exec \"npm start\" "
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
